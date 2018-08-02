@@ -46,10 +46,10 @@ class MyStreamListener(tweepy.StreamListener):
 			return False 	# disconnects stream
 
 # These shouldn't be human readable or distributed, but here they are
-consumer_key 		= 'brwJsKyVQHqCtOJMMxK7n9PYk'
-consumer_secret 	= '5EfrIRixXPfCzkjsgzcamoVvU6s6hx2KCIZeJGFAB9eC7L9pn1'
-access_token 		= '565659325-jVylfIP8JRIV2Jf49a9kGFd7GOmWFdyi5eSMzFLM'
-access_token_secret = 'LlvfHxwXCs6nT42Dmtq8CFuosNYgbwTFPhlwhqlzHy5MY'
+consumer_key 		= ''
+consumer_secret 	= ''
+access_token 		= ''
+access_token_secret 	= ''
 
 # OAuth Authentication
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)

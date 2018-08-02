@@ -7,9 +7,9 @@ import time
 # USP18 - HW5, Problem 2
 
 fout = 'saveFile.json'
-timelimit = 28800 #seconds. 8hrs = 28800
+timelimit = 28800  # seconds. 8hrs = 28800
 filter_lvl = 'none'
-keywords = ['information security', 'information privacy', 'data science', 'data security', 'privacy policy', 'customer data', 'blase ur']
+keywords = ['information security', 'information privacy', 'data science', 'data security', 'privacy policy']
 
 # override tweepy.StreamListener to add on_status logic
 class MyStreamListener(tweepy.StreamListener):
@@ -32,11 +32,11 @@ class MyStreamListener(tweepy.StreamListener):
 		if status_code == 420:
 			return False 	# disconnects stream
 
-# These shouldn't be human readable or distributed, but here they are
-consumer_key 		= 'brwJsKyVQHqCtOJMMxK7n9PYk'
-consumer_secret 	= '5EfrIRixXPfCzkjsgzcamoVvU6s6hx2KCIZeJGFAB9eC7L9pn1'
-access_token 		= '565659325-jVylfIP8JRIV2Jf49a9kGFd7GOmWFdyi5eSMzFLM'
-access_token_secret = 'LlvfHxwXCs6nT42Dmtq8CFuosNYgbwTFPhlwhqlzHy5MY'
+# These shouldn't be human readable or distributed
+consumer_key 		= ''
+consumer_secret 	= ''
+access_token 		= ''
+access_token_secret 	= ''
 
 # OAuth Authentication
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)

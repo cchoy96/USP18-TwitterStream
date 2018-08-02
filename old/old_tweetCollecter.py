@@ -3,8 +3,8 @@ import base64
 import json
 
 # Consumer Key & Secret
-key = 'brwJsKyVQHqCtOJMMxK7n9PYk'
-secret = '5EfrIRixXPfCzkjsgzcamoVvU6s6hx2KCIZeJGFAB9eC7L9pn1'
+key    = ''
+secret = ''
 
 
 # https://developer.twitter.com/en/docs/basics/authentication/overview/application-only
